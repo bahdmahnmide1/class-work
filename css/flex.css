@@ -1,0 +1,24 @@
+.container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    padding: 1rem;
+    margin: 2rem;
+    flex-basis: 25%;
+    background: pink;
+}
+@media(max-width: 991.98px){
+    .four{
+        display: none;
+    }
+}
+@media(max-width: 567.68px){
+    .box{
+        display: block;
+        
+    }
+}
